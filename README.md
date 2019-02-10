@@ -23,6 +23,42 @@ dict2xml
 pydoc
 ```
 
+## Example Output
+
+```
+ _____________   ______________
+ __  ____/__  | / /_  __ \__  /
+ _  / __ __   |/ /_  / / /_  /
+ / /_/ / _  /|  / / /_/ /_  /___
+ \____/  /_/ |_/  \___\_\/_____/
+
+ ┌───────────────────────────┐
+ │       result 1 of 1       │
+ └───────────────────────────┘
+
+          OVERVIEW:
+ ----------------------------
+ IP: 185.156.177.44
+ Classification: malicious
+ First seen: 2018-05-30
+ Last seen: 2019-02-10
+ Actor: unknown
+ Tags: ['VNC Bruteforcer', 'VNC Scanner']
+
+          METADATA:
+ ----------------------------
+ Location: Obninsk, Russia (RU)
+ Organization: HOSTKEY B.V.
+ ASN: AS57043
+ OS: Windows 7/8
+ Category: hosting
+
+          RAW DATA:
+ ----------------------------
+ Port/Proto: 5900/TCP
+ Port/Proto: 5901/TCP
+ ```
+
 ## Output Formats
 
 ```
